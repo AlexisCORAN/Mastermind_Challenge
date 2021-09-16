@@ -1,4 +1,4 @@
 (function () {
-    createRandomAnswer()
+    initAnswer()
     renderGuessButtons()
 })()

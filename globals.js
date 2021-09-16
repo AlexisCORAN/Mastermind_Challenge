@@ -2,3 +2,4 @@ const colors = ['red', 'green', 'blue', 'yellow', 'purple', 'orange', 'white', '
 const [rows, cols] = [10, 4]
 const selectorCols = 6
 let answer = []
+const classPegHidden = 'peg-hidden'
