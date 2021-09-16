@@ -22,10 +22,10 @@ for (let row = 0; row < rows; row++)
     for (let col = 0; col < cols; col++)
     {
         guessHTML += `
-            <div id="guess-${row}-${col}" class="guess-peg"><button>This is peg${row}${col}</button></div>
+            <div id="guess-${row}-${col}" class="guess-peg"><button>peg${row}${col}</button></div>
         `
         gradeHTML += `
-            <div id="grade-${row}-${col}" class="grade-peg"><button>This GRADE${row}${col}</button></div>
+            <div id="grade-${row}-${col}" class="grade-peg"><button>grade${row}${col}</button></div>
         `
     }
 

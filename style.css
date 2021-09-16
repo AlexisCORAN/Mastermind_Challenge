@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+body {
+	background-color: silver;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+.board {
+	background-color: purple;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: auto;
+	width: 50%;
+	height: 80%;
+	border-radius: 4%;
+}
+
+.guess-container {
+	background-color: grey;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	width: 90%;
+	height: 100%;
+}
+
+.guess-row {
+	background-color: aquamarine;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 90%;
+	margin: auto;
+}
+
+.guess-container .guess-row .guess-pegs {
+	background-color: lightblue;
+	display: flex;
+	flex-direction: row;
+}
+
+.guess-container .guess-row .grade-pegs {
+	background-color: lightcyan;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.guess-container .guess-row .guess-pegs button {
+	width: 3rem;
+	height: 3rem;
+	font-size: 0.6rem;
+	border-radius: 50%;
+}
+
+.guess-container .guess-row .grade-pegs button {
+	width: 1.5rem;
+	height: 1.5rem;
+	font-size: 0.6rem;
+	border-radius: 50%;
+}
