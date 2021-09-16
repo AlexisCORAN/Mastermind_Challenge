@@ -8,8 +8,20 @@ function createRandomAnswer() {
     }
 }
 
-function createAnswerButtons() {
+function renderAnswerHidden() {
+    let answerHTML = answer.reduce((acc, _) => `${acc}<div id="" class="answer-peg ${classPegHidden}">?</div>`, '')
+
+    DOM.answerContainer.insertAdjacentHTML('beforeend', answerHTML)
+}
+
+function renderAnswer() {
     let answerHTML = answer.reduce((acc, color) => `${acc}<div id="" class="answer-peg ${color}"></div>`, '')
 
-    DOM.answerContainer.insertAdjacentHTML('beforeend', guessRowHTML(guessHTML, answerHTML))
+    DOM.answerContainer.innerHTML = ''
+    DOM.answerContainer.insertAdjacentHTML('beforeend', answerHTML)
+}
+
+function initAnswer() {
+    createRandomAnswer()
+    renderAnswerHidden()
 }
