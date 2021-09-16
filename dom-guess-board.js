@@ -10,7 +10,6 @@ function createGuessButtons() {
         </div>
     `
 
-    const [rows, cols] = [10, 4]
     for (let row = 0; row < rows; row++)
     {
         let guessHTML = ''
