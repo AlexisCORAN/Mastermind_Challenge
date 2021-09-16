@@ -1,24 +1,21 @@
 function createSelector() {
-    const selectorHTML = (selector) => `
-        <div class="guess-row">
-            <div class="guess-pegs">
-                ${guessPeg}
-            </div>
+    const selectorContainerHTML = (selector) => `
+        <div class="selector-container">
+                ${selector}
         </div>
     `
-    const cols = 6
-    let gradeHTML = ''
-    for (let col = 0; row < rows; row++)
+    let selectorHTML = ''
+    for (let col = 0; col < selectorCols; col++)
     {
-        gradeHTML += `
-            <div id="grade-${row}-${col}" class="grade-peg"><button>grade${row}${col}</button></div>
+        selectorHTML += `
+            <div id="selector-${col}" class="selector"><button>${col}</button></div>
             `
-        DOM.guessContainer.insertAdjacentHTML('beforeend', selectorHTML(guessHTML, gradeHTML))
+        DOM.guessContainer.insertAdjacentHTML('beforeend', selectorHTML(selectorHTML))
     }
 }
 
 function addListenersToSelector() {
-    document.querySelectorAll('.guess-peg')
+    document.querySelectorAll('.selector')
         .forEach(el => el.addEventListener('click', () => {
                 console.log(el.id)
             })
