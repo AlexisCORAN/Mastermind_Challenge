@@ -1,4 +1,5 @@
 (function () {
     initAnswer()
     renderGuessButtons()
+    renderSelector()
 })()

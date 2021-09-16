@@ -16,6 +16,7 @@ body {
 .board {
 	background-color: purple;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-content: center;
 	margin: auto;
@@ -77,4 +78,8 @@ red {
 	height: 1.5rem;
 	font-size: 0.6rem;
 	border-radius: 50%;
+}
+
+.red {
+	background-color: red;
 }
