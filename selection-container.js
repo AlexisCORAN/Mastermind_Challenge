@@ -1,15 +1,13 @@
 function checkRowColors(row) {
-    let color
+    let el, color
     let [reds, whites] = [0, 0]
-    let ansMap = {}
-    let remaining = []
+    let ansMap = {}, remaining = []
 
     for (let col = 0; col < cols; col++)
     {
         id = `guess-${row}-${col}`
         color = document.getElementById(id).dataset.color
         ansColor = answer[col]
-        console.log(color, ansColor)
         if (ansColor == color) {
             reds++
         } else {
@@ -26,7 +24,18 @@ function checkRowColors(row) {
         }
     })
 
-    console.log(reds, whites)
+    for (let col = 0; col < cols; col++)
+    {
+        id = `grade-${row}-${col}`
+        el = document.getElementById(id)
+        if (reds > 0) {
+            el.style.background = '#f00'
+            reds--
+        } else if (whites > 0) {
+            el.style.background = '#fff'
+            whites--
+        }
+    }
 }
 
 function createSelector() {
@@ -53,7 +62,6 @@ function addListenersToSelector() {
                 let elem = document.getElementById(id)
                 elem.style.background = color
                 elem.dataset.color = el.dataset.color
-                console.log(el.dataset.color)
 
                 if (currCol == cols)
                 {
