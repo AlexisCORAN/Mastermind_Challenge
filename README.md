@@ -5,6 +5,7 @@ This repository contains the implementation of the mastermind game, this is a bo
 
 It ends when the combination is found (that is, a combination with four reds is achieved), or the board is exhausted (it depends on the size, although there are generally 10 combinations).
 
+
 :white_check_mark: Requirements
 * By group of 5~ students (you can regroup based on attendance) - but your evaluation will be as campus!
 * Each language can only be used once per campus - advice: take 10-20min at the beginning of the day to dispatch languages.
@@ -14,7 +15,8 @@ It ends when the combination is found (that is, a combination with four reds is 
 * Only languages bellow are allowed for implementing the Mastermind
 * Make it fun!
 
-##language used >>>:hammer:
+
+## Language used >>>:hammer:
 > Javascript
 
 ## How to Play :video_game:
