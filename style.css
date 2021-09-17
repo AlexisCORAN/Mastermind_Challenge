@@ -139,11 +139,20 @@ body {
 		background-color: lightyellow;
 	}
 
+	.board {
+		width: 80%;
+	}
+
+	.answer-container {
+		width: 80%;
+	}
+
 	.guess-container {
 		flex-direction: row;
 		flex-wrap: wrap;
 		align-content: flex-start;
 		overflow: auto;
+		width: 80%;
 	}
 
 	.guess-row {
@@ -152,6 +161,10 @@ body {
 
 	.guess-pegs {
 		margin: 0.4rem;
+	}
+
+	.selection-container {
+		width: 80%;
 	}
 }
 
