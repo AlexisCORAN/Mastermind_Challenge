@@ -16,7 +16,7 @@ function renderAnswerHidden() {
 }
 
 function renderAnswer() {
-    let answerHTML = answer.reduce((acc, color) => `${acc}<div style="background: ${color};" class="answer-peg"></div>`, '')
+    let answerHTML = answer.reduce((acc, color) => `${acc}<div style="background: ${colors[color]};" class="answer-peg"></div>`, '')
 
     DOM.answerContainer.innerHTML = ''
     DOM.answerContainer.insertAdjacentHTML('beforeend', answerHTML)
