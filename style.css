@@ -156,7 +156,7 @@ body {
 
 @media only screen and (min-width: 360px) {
 	.board {
-		height: 70%;
+		height: 80%;
 	}
 	.guess-container {
 		height: 70%;
