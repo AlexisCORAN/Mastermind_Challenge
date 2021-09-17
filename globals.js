@@ -11,3 +11,4 @@ let answer = []
 const classPegHidden = 'peg-hidden'
 
 let [currRow, currCol] = [0, 0]
+let gameOver = false

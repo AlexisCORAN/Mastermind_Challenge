@@ -10,13 +10,13 @@ function createRandomAnswer() {
 }
 
 function renderAnswerHidden() {
-    let answerHTML = answer.reduce((acc, _) => `${acc}<div id="" class="answer-peg ${classPegHidden}">?</div>`, '')
+    let answerHTML = answer.reduce((acc, _) => `${acc}<div class="answer-peg">?</div>`, '')
 
     DOM.answerContainer.insertAdjacentHTML('beforeend', answerHTML)
 }
 
 function renderAnswer() {
-    let answerHTML = answer.reduce((acc, color) => `${acc}<div id="" class="answer-peg ${color}"></div>`, '')
+    let answerHTML = answer.reduce((acc, color) => `${acc}<div style="background: ${color};" class="answer-peg"></div>`, '')
 
     DOM.answerContainer.innerHTML = ''
     DOM.answerContainer.insertAdjacentHTML('beforeend', answerHTML)
