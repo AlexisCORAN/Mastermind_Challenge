@@ -1,15 +1,6 @@
-Mastermind Challenge
----
-layout: default
----
+Mastermind Game
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+This is a project at Holberton School where we implemented a version of the Mastermind game.
 
 # Header 1
 
