@@ -1,10 +1,11 @@
 function createRandomAnswer() {
     answer = []
-    let ind, size = colors.length
+    let allColors = Object.keys(colors)
+    let ind, size = allColors.length
     for (let i = 0; i < cols; i++)
     {
         ind = Math.floor(Math.random() * size);
-        answer.push(colors[ind])
+        answer.push(allColors[ind])
     }
 }
 
