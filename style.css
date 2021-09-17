@@ -132,3 +132,33 @@ body {
 	margin: 1rem auto;
 	border:  none;
 }
+
+@media only screen and (max-width: 692px) {
+	body {
+		background-color: lightyellow;
+	}
+
+	.guess-container {
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-content: flex-start;
+		overflow: auto;
+	}
+
+	.guess-row {
+		flex-direction: column;
+	}
+
+	.guess-pegs {
+		margin: 0.4rem;
+	}
+}
+
+@media only screen and (min-width: 360px) {
+	.board {
+		height: 80%;
+	}
+	.guess-container {
+		height: 70%;
+	}
+}
