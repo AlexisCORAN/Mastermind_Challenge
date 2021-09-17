@@ -9,7 +9,7 @@ This is a project at Holberton School where we implemented a version of the Mast
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
-### Header 3
+## Algorithm put in place
 
 ```js
 // Javascript code with syntax highlighting.
@@ -26,19 +26,19 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
-#### Header 4
+## User(s) flow to play
 
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 
-##### Header 5
+## Piece of code related to the algorithm or flow
 
 1.  This is an ordered list following a header.
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
 
-###### Header 6
+## Screenshots of the game
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
