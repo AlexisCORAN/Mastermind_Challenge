@@ -3,7 +3,7 @@ function createSelector() {
     for (let col of colors)
     {
         selectorHTML += `
-            <div id="selector-${col}" class="selector ${col}"><button>${col}</button></div>
+            <button id="selector-${col}" class="selector ${col}"></button>
             `
     }
 	DOM.selectionContainer.insertAdjacentHTML('beforeend', selectorHTML)
@@ -12,7 +12,20 @@ function createSelector() {
 function addListenersToSelector() {
     document.querySelectorAll('.selector')
         .forEach(el => el.addEventListener('click', () => {
-                console.log(el.id)
+                if (currRow == rows) {
+                    alert('Fin del juego!!!!')
+                    return;
+                }
+
+                const id=`guess-${currRow}-${currCol++}`
+                let color = el.classList[1]
+                // document.getElementById(id).classList.push(color)
+                document.getElementById(id).style.background = color
+                if (currCol == cols)
+                {
+                    currRow++;
+                    currCol = 0
+                }
             })
         )
 }

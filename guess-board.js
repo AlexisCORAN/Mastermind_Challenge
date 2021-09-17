@@ -17,14 +17,14 @@ function createGuessButtons() {
         for (let col = 0; col < cols; col++)
         {
             guessHTML += `
-                <div id="guess-${row}-${col}" class="guess-peg"><button>${row}${col}</button></div>
+                <div id="guess-${row}-${col}" class="guess-peg"></div>
             `
             gradeHTML += `
-                <div id="grade-${row}-${col}" class="grade-peg"><button>${row}${col}</button></div>
+                <div id="grade-${row}-${col}" class="grade-peg"></div>
             `
         }
 
-        DOM.guessContainer.insertAdjacentHTML('beforeend', guessRowHTML(guessHTML, gradeHTML))
+        DOM.guessContainer.insertAdjacentHTML('afterbegin', guessRowHTML(guessHTML, gradeHTML))
     }
 }
 
