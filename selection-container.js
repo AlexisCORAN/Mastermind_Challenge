@@ -1,22 +1,32 @@
 function checkRowColors(row) {
     let color
     let [reds, whites] = [0, 0]
+    let ansMap = {}
     let remaining = []
 
     for (let col = 0; col < cols; col++)
     {
-        id = `grade-${row}-${col}`
-        color = document.getElementById(id).style.background
-        if (answer[col] == color)
+        id = `guess-${row}-${col}`
+        color = document.getElementById(id).dataset.color
+        ansColor = answer[col]
+        console.log(color, ansColor)
+        if (ansColor == color) {
             reds++
-        else
+        } else {
+            ansMap[ansColor] = (ansMap[ansColor] || 0) + 1
             remaining.push(color)
+        }
     }
 
-    for (letcolor of remaining)
-    {
+    remaining.forEach(color => {
+        if (ansMap[color])
+        {
+            ansMap[color] -= 1
+            whites++;
+        }
+    })
 
-    }
+    console.log(reds, whites)
 }
 
 function createSelector() {
@@ -24,7 +34,7 @@ function createSelector() {
     for (let [key, color] of Object.entries(colors))
     {
         selectorHTML += `
-            <button id="selector-${key}" color="key" class="selector" style="background: ${color};"></button>
+            <button id="selector-${key}" data-color="${key}" class="selector" style="background: ${color};"></button>
             `
     }
 	DOM.selectionContainer.insertAdjacentHTML('beforeend', selectorHTML)
@@ -39,8 +49,11 @@ function addListenersToSelector() {
                 }
 
                 const id=`guess-${currRow}-${currCol++}`
-                let color = el.color
-                document.getElementById(id).style.background = color
+                let color = el.style.background
+                let elem = document.getElementById(id)
+                elem.style.background = color
+                elem.dataset.color = el.dataset.color
+                console.log(el.dataset.color)
 
                 if (currCol == cols)
                 {
