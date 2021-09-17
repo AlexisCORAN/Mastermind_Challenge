@@ -3,7 +3,7 @@ const colors = {
     green: '#0f0',
     blue: '#00f',
     yellow: '#CDFF00',
-    purple: '#8000FF',
+    purple: '#2d016b',
     orange: '#FFB300'
 }
 const [rows, cols] = [10, 4]

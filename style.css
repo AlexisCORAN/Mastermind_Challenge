@@ -26,7 +26,7 @@ body {
 }
 
 .answer-container {
-	background-color: rebeccapurple;
+	background-color: slateblue;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -109,7 +109,7 @@ body {
 }
 
 .selection-container {
-	background-color: rebeccapurple;
+	background-color: slateblue;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -130,5 +130,5 @@ body {
 	height: 2rem;
 	width: 2rem;
 	margin: 1rem auto;
-	border: 1px groove azure;
+	border:  none;
 }
