@@ -110,3 +110,8 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
+
+## Play Mastermind
+
+We have created an environment to play Mastermind, in a docker container.
+
