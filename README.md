@@ -53,7 +53,7 @@ end
 
 ## Screenshots of the game
 
-![img](https://imgur.com/bbhGRp8)
+![Image text](https://imgur.com/bbhGRp8)
 
 ![img](https://imgur.com/ZkDX4ce)
 
