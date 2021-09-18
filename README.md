@@ -63,3 +63,12 @@ end
 ## Play Mastermind
 
 We have created an environment to play Mastermind, in a docker container.
+
+You can see the docker image in the following link
+[Image of mastermind!](https://hub.docker.com/r/andrescondezo/mastermind_js)
+
+You can run the image with the following suggested command
+
+```
+docker run --name <name of the container> -p 8080:80 -d -ti andrescondezo/mastermind_js
+```
