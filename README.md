@@ -21,11 +21,14 @@ This project was productive every member of the team.
 We chose this language because of the ease we have to give dynamism to a web page.
 We can make interventions, animations and requests to the server without having to reload the page.
 
-In addition, we can complement it with CSS, to obtain the graphic part of the game. </p>
+In addition, we can complement it with CSS, to obtain the graphic interface of the game.
+
+Is one of the languages with the highest demand today </p>
 
 
 ## Algorithm put in place
 
+We have implemented a simple version of the game, with basic rules.
 
 
 ## User(s) flow to play
@@ -77,6 +80,10 @@ In this picture you can see that it ends correctly when it loses
 In this picture you can see that it finishes correctly when it wins
 
 [![Screenshot-249.png](https://i.postimg.cc/Y0hz8PhC/Screenshot-249.png)](https://postimg.cc/XB65YQfR)
+
+We have implemented a responsive version of the page.
+
+[![Screenshot-251.png](https://i.postimg.cc/pXFk5y4h/Screenshot-251.png)](https://postimg.cc/ZCJ61YT4)
 
 
 ## Play Mastermind
