@@ -79,7 +79,7 @@ In this picture you can see that it ends correctly when it loses
 
 In this picture you can see that it finishes correctly when it wins
 
-<img src="https://imgur.com/bbhGRp8" alt="Mastermind Game" >
+<img src="images/Screenshot_249.png" alt="Mastermind Game">
 
 We have implemented a responsive version of the page.
 
