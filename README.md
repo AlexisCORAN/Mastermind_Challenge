@@ -2,24 +2,39 @@
 
 This is a project at Holberton School where we implemented a version of the Mastermind game.
 
-
+<<br />
 ## Proyect members
+
+This project was productive every member of the team
 
 * **Renato Leon**
 * **Manuel Condori**
 * **Andres Condezo**
 * **Alexis Coronado**
 
-
+<<br />
 ## Presentation of the language
 
-<p align=center> JAVASCRIPT </p>
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+<strong> JAVASCRIP </strong> was the chosen language.
+We chose this language because of the ease we have to give dynamism to a web page.
+We can make interventions, animations and requests to the server without having to reload the page.
 
+In addition, we can complement it with CSS, to obtain the graphic part of the game.
 
+<<br />
 ## Algorithm put in place
+
+
+
+<<br />
+## User(s) flow to play
+
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+
+<<br />
+## Piece of code related to the algorithm or flow
 
 ```js
 function paintPegs(el) {
@@ -48,21 +63,7 @@ function paintPegs(el) {
 }
 ```
 
-
-## User(s) flow to play
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-
-## Piece of code related to the algorithm or flow
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-
+<<br />
 ## Screenshots of the game
 
 [![Screenshot-247.png](https://i.postimg.cc/BZB3GwYV/Screenshot-247.png)](https://postimg.cc/w3MZXFdX)
@@ -71,7 +72,7 @@ function paintPegs(el) {
 
 [![Screenshot-249.png](https://i.postimg.cc/Y0hz8PhC/Screenshot-249.png)](https://postimg.cc/XB65YQfR)
 
-
+<<br />
 ## Play Mastermind
 
 We have created an environment to play Mastermind, in a docker container.
