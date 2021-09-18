@@ -1,5 +1,0 @@
-(function () {
-    initAnswer()
-    renderGuessButtons()
-    renderSelector()
-})()
