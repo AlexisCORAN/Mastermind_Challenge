@@ -20,15 +20,15 @@ It ends when the combination is found (that is, a combination with four reds is 
 > Javascript
 
 ## How to download dockerhub image and play :video_game:
-### 1.-Run this script on your command line.
+#### 1.-Run this script on your command line.
 ```sh
 $docker run --name <name for the container> -p 8080:80 -d -ti andrescondezo/mastermind-js
 $hostname -I
 172.0.0.0  
 ```
-### 2.-copy the ID you just obtained and paste it into your browser (if you put a port other than 80 you will have to specify it in the browser, example: 127.0.0.0:8080) 
+#### 2.-copy the ID you just obtained and paste it into your browser (if you put a port other than 80 you will have to specify it in the browser, example: 127.0.0.0:8080) 
 
-### 3.-Enjoy the game
+#### 3.-Enjoy the game
 
 ## Authors :pencil2:
 * **Renato Leon**
