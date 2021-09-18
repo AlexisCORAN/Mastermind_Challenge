@@ -55,9 +55,9 @@ end
 
 [![Screenshot-247.png](https://i.postimg.cc/BZB3GwYV/Screenshot-247.png)](https://postimg.cc/w3MZXFdX)
 
-![img](https://imgur.com/ZkDX4ce)
+[![Screenshot-248.png](https://i.postimg.cc/cLYTVPTK/Screenshot-248.png)](https://postimg.cc/jDxzfgpK)
 
-![img](https://imgur.com/1NDtpIr)
+[![Screenshot-249.png](https://i.postimg.cc/Y0hz8PhC/Screenshot-249.png)](https://postimg.cc/XB65YQfR)
 
 
 ## Play Mastermind
