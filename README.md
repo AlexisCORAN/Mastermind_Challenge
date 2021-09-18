@@ -79,11 +79,11 @@ In this picture you can see that it ends correctly when it loses
 
 In this picture you can see that it finishes correctly when it wins
 
-<img align="center" src="images/Screenshot_249.png" alt="Mastermind Win">
+<div align="center"> <img  src="images/Screenshot_249.png" alt="Mastermind Win"> </div> 
 
 We have implemented a responsive version of the page.
 
-<img align="center" src="images/Screenshot_251.png" alt="Mastermind Win">
+<div align="center"> <img  src="images/Screenshot_251.png" alt="Mobile Game"> </div> 
 
 
 ## Play Mastermind
