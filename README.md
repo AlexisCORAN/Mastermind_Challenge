@@ -53,7 +53,7 @@ end
 
 ## Screenshots of the game
 
-![Image text](https://imgur.com/bbhGRp8)
+![Image text]https://github.com/AlexisCORAN/Mastermind_Challenge/blob/gh-pages/images/Screenshot_247.png)
 
 ![img](https://imgur.com/ZkDX4ce)
 
