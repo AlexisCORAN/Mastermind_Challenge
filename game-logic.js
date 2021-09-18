@@ -1,5 +1,5 @@
 function showGameOver() {
-    alert("The game is OVER!!")
+		setTimeout(() => alert("The game is OVER!!"), 0)
 }
 
 function checkCodeColor(reds) {
