@@ -22,7 +22,7 @@ It ends when the combination is found (that is, a combination with four reds is 
 ## How to download dockerhub image and play :video_game:
 ###1.-Run this script on your command line.
 ```sh
-$run docker run --name mamecontainer -p 8080:80 -d -ti andrescondezo/mastermind-js
+$run docker run --name <name for the container> -p 8080:80 -d -ti andrescondezo/mastermind-js
 $hostname -I
 172.0.0.0  
 ```
