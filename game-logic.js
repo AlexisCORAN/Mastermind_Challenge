@@ -1,14 +1,19 @@
 function showGameOver() {
-		setTimeout(() => alert("The game is OVER!!"), 0)
+		let msg = gameOverMsg
+		msg += winner && winnerMsg || looserMsg
+		msg += playAgainMsg
+		setTimeout(() => {
+			if(confirm(msg))
+				init()
+		}, 10)
 }
 
 function checkCodeColor(reds) {
     if (reds === cols) {
         renderAnswer()
-        gameOver = true;
-        setTimeout(() => {
-            alert("You cracked the code!!!")
-        }, 0);
+				winner = true
+        gameOver = true
+				showGameOver()
     }
 }
 
@@ -74,7 +79,7 @@ function paintPegs(el) {
         currCol = 0
     }
 
-    if (currRow === rows)
+    if (!gameOver && currRow === rows)
     {
         renderAnswer()
         showGameOver()

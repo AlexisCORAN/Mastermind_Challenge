@@ -6,7 +6,8 @@ function createSelector() {
             <button id="selector-${key}" data-color="${key}" class="selector" style="background: ${color};"></button>
             `
     }
-	DOM.selectionContainer.insertAdjacentHTML('beforeend', selectorHTML)
+		DOM.selectionContainer.innerHTML = ''
+		DOM.selectionContainer.insertAdjacentHTML('beforeend', selectorHTML)
 }
 
 function addListenersToSelector() {

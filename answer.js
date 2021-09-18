@@ -12,6 +12,7 @@ function createRandomAnswer() {
 function renderAnswerHidden() {
     let answerHTML = answer.reduce((acc, _) => `${acc}<div class="answer-peg">?</div>`, '')
 
+    DOM.answerContainer.innerHTML = ''
     DOM.answerContainer.insertAdjacentHTML('beforeend', answerHTML)
 }
 

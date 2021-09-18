@@ -10,6 +10,7 @@ function createGuessButtons() {
         </div>
     `
 
+		DOM.guessContainer.innerHTML = ''
     for (let row = 0; row < rows; row++)
     {
         let guessHTML = ''
@@ -23,7 +24,6 @@ function createGuessButtons() {
                 <div id="grade-${row}-${col}" class="grade-peg"></div>
             `
         }
-
         DOM.guessContainer.insertAdjacentHTML('afterbegin', guessRowHTML(guessHTML, gradeHTML))
     }
 }
