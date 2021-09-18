@@ -33,7 +33,7 @@ We have implemented a simple version of the game, with basic rules.
 
 ## User(s) flow to play
 
-<p align="justify"> The colores key is generated automatically and the player has to try to guess with combinations of their preference, with the help of the degree-pages it helps them to verify if the colors are suitable and are not in the correct place or that the colors are suitable. and they are in the right place. </p>
+<p align="justify"> The colores key is generated automatically and the player has to try to guess with combinations of their preference, with the help of the grade-pages it helps them to verify if the colors are suitable and are not in the correct place or that the colors are suitable. and they are in the right place. </p>
 
 ## Piece of code related to the algorithm or flow
 
