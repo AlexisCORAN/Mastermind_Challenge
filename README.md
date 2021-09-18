@@ -4,7 +4,7 @@
 <br />
 This is a board game, of ingenuity and reflection, at first this version only allows the interaction of one player, later in version 2 it will be multiplayer. </p>
 
-<br />
+
 ## Proyect members
 
 This project was productive every member of the team.
@@ -14,7 +14,7 @@ This project was productive every member of the team.
 * **Andres Condezo**
 * **Alexis Coronado**
 
-<br />
+
 ## Presentation of the language
 
 <p align="justify"> <strong> JAVASCRIP </strong> was the chosen language.<br />
@@ -23,19 +23,18 @@ We can make interventions, animations and requests to the server without having 
 
 In addition, we can complement it with CSS, to obtain the graphic part of the game. </p>
 
-<br />
+
 ## Algorithm put in place
 
 
-<br />
+
 ## User(s) flow to play
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
 
-<br />
+
 ## Piece of code related to the algorithm or flow
+
+This function makes you paint with each color selected in the corresponding row.
 
 ```js
 function paintPegs(el) {
@@ -64,7 +63,7 @@ function paintPegs(el) {
 }
 ```
 
-<br />
+
 ## Screenshots of the game
 
 In this picture you can see the game
@@ -79,7 +78,7 @@ In this picture you can see that it finishes correctly when it wins
 
 [![Screenshot-249.png](https://i.postimg.cc/Y0hz8PhC/Screenshot-249.png)](https://postimg.cc/XB65YQfR)
 
-<br />
+
 ## Play Mastermind
 
 We have created an environment to play Mastermind, in a docker container.
