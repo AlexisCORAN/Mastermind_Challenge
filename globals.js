@@ -17,4 +17,5 @@ let gameOverMsg = 'The GAME IS OVER!!!'
 let winnerMsg = '\nYou WON!!'
 let looserMsg = '\nYou LOST!!!'
 let playAgainMsg = '\nWanna play again?'
+const audio = new Audio('Audio/subir-nivel.mp3');
 
