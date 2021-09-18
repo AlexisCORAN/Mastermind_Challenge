@@ -53,7 +53,7 @@ end
 
 ## Screenshots of the game
 
-[Screenshot-247.png](https://postimg.cc/w3MZXFdX)
+[![Screenshot-247.png](https://i.postimg.cc/BZB3GwYV/Screenshot-247.png)](https://postimg.cc/w3MZXFdX)
 
 ![img](https://imgur.com/ZkDX4ce)
 
