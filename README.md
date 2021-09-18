@@ -22,18 +22,30 @@ This is a project at Holberton School where we implemented a version of the Mast
 ## Algorithm put in place
 
 ```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+function paintPegs(el) {
+    if (gameOver === true) {
+        showGameOver()
+        return;
+    }
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+    const id=`guess-${currRow}-${currCol++}`
+    let color = el.style.background
+    let elem = document.getElementById(id)
+    elem.style.background = color
+    elem.dataset.color = el.dataset.color
+
+    if (currCol == cols)
+    {
+        checkRowColors(currRow++)
+        currCol = 0
+    }
+
+    if (currRow === rows)
+    {
+        renderAnswer()
+        gameOver = true
+    }
+}
 ```
 
 
@@ -64,11 +76,11 @@ end
 
 We have created an environment to play Mastermind, in a docker container.
 
-You can see the docker image in the following link
-[Image of mastermind!](https://hub.docker.com/r/andrescondezo/mastermind_js)
+You can see the docker image in the following link: 
+[Mastermind!](https://hub.docker.com/r/andrescondezo/mastermind_js)
 
 You can run the image with the following suggested command
 
-```
+```Bash
 docker run --name <name of the container> -p 8080:80 -d -ti andrescondezo/mastermind_js
 ```
