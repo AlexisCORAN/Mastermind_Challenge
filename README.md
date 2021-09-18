@@ -90,6 +90,9 @@ We have implemented a responsive version of the page.
 
 We have created an environment to play Mastermind, in a docker container.
 
+You can also play online with the following link:
+[Play](https://alexiscoran.github.io/Mastermind_Challenge/Game_Files/index.html)
+
 You can see the docker image in the following link: 
 [Mastermind!](https://hub.docker.com/r/andrescondezo/mastermind_js)
 
