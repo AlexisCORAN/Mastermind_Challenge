@@ -77,6 +77,7 @@ function paintPegs(el) {
     if (currRow === rows)
     {
         renderAnswer()
+        showGameOver()
         gameOver = true
     }
 }
