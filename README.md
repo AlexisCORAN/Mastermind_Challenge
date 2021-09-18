@@ -79,11 +79,12 @@ In this picture you can see that it ends correctly when it loses
 
 In this picture you can see that it finishes correctly when it wins
 
-[![Screenshot-249.png](https://i.postimg.cc/Y0hz8PhC/Screenshot-249.png)](https://postimg.cc/XB65YQfR)
+<div align="center"> [![Screenshot-249.png](https://i.postimg.cc/Y0hz8PhC/Screenshot-249.png)](https://postimg.cc/XB65YQfR) </div>
 
 We have implemented a responsive version of the page.
 
-[![Screenshot-251.png](https://i.postimg.cc/pXFk5y4h/Screenshot-251.png)](https://postimg.cc/ZCJ61YT4)
+<div align="center"> [![Screenshot-251.png](https://i.postimg.cc/pXFk5y4h/Screenshot-251.png)](https://postimg.cc/ZCJ61YT4)</div>
+
 
 
 ## Play Mastermind
