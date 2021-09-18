@@ -71,21 +71,19 @@ function paintPegs(el) {
 
 In this picture you can see the game
 
-[![Screenshot-247.png](https://i.postimg.cc/BZB3GwYV/Screenshot-247.png)](https://postimg.cc/w3MZXFdX)
+<img src="images/Screenshot_247.png" alt="Mastermind Game">
 
 In this picture you can see that it ends correctly when it loses
 
-[![Screenshot-248.png](https://i.postimg.cc/cLYTVPTK/Screenshot-248.png)](https://postimg.cc/jDxzfgpK)
+<img src="images/Screenshot_248.png" alt="Mastermind lose">
 
 In this picture you can see that it finishes correctly when it wins
 
-<img src="images/Screenshot_249.png" alt="Mastermind Game">
+<img align="center" src="images/Screenshot_249.png" alt="Mastermind Win">
 
 We have implemented a responsive version of the page.
 
-<center> [![Screenshot-251.png](https://i.postimg.cc/pXFk5y4h/Screenshot-251.png)](https://postimg.cc/ZCJ61YT4)
-</center>
-
+<img align="center" src="images/Screenshot_251.png" alt="Mastermind Win">
 
 
 ## Play Mastermind
