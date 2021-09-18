@@ -1,6 +1,8 @@
 # Mastermind Game
 
-This is a project at Holberton School where we implemented a version of the Mastermind game.
+<p align="justify"> This is a project at Holberton School where we implemented a version of the Mastermind game.
+<br />
+This is a board game, of ingenuity and reflection, at first this version only allows the interaction of one player, later in version 2 it will be multiplayer. </p>
 
 <br />
 ## Proyect members
@@ -15,18 +17,17 @@ This project was productive every member of the team.
 <br />
 ## Presentation of the language
 
-<strong> JAVASCRIP </strong> was the chosen language.<br />
+<p align="justify"> <strong> JAVASCRIP </strong> was the chosen language.<br />
 We chose this language because of the ease we have to give dynamism to a web page.
 We can make interventions, animations and requests to the server without having to reload the page.
 
-In addition, we can complement it with CSS, to obtain the graphic part of the game.
+In addition, we can complement it with CSS, to obtain the graphic part of the game. </p>
 
 <br />
 ## Algorithm put in place
 
 
-
-<<br />
+<br />
 ## User(s) flow to play
 
 *   This is an unordered list following a header.
