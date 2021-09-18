@@ -11,9 +11,14 @@ function showGameOver() {
 function checkCodeColor(reds) {
     if (reds === cols) {
         renderAnswer()
-				winner = true
+        winner = true
         gameOver = true
-				showGameOver()
+        showGameOver()
+        audio.play()
+        setTimeout(() => {
+            audio.pause()
+            audio.currentTime = 0
+        }, 2000)
     }
 }
 
