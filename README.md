@@ -17,7 +17,7 @@ This project was productive every member of the team.
 
 ## Presentation of the language
 
-<p align="justify"> <strong> JAVASCRIP </strong> was the chosen language.<br />
+<p align="justify"> <strong> JAVASCRIP </strong> was the chosen programming language.<br />
 We chose this language because of the ease we have to give dynamism to a web page.
 We can make interventions, animations and requests to the server without having to reload the page.
 
@@ -38,7 +38,7 @@ We have implemented a simple version of the game, with basic rules.
 
 ## User(s) flow to play
 
-<img src="images/Screenshot_252.png" alt="Flow to play">
+<div align="center"> <img src="images/Screenshot_252.png" alt="Flow to play"> </div>
 
 ## Piece of code related to the algorithm or flow
 
