@@ -26,6 +26,11 @@ In addition, we can complement it with CSS, to obtain the graphic interface of t
 Is one of the languages with the highest demand today </p>
 
 
+## Instruccions
+
+<p align="justify"> The color key is generated automatically. The player only has one turn.<br/>
+The player has to try to guess with combinations of their preference, with the help of the grade-pegs it helps them to verify if the colors are suitable and are not in the correct place (whites) or that the colors are appropriate. and they're in the right place (reds). </p>
+
 ## Algorithm put in place
 
 We have implemented a simple version of the game, with basic rules.
@@ -33,7 +38,7 @@ We have implemented a simple version of the game, with basic rules.
 
 ## User(s) flow to play
 
-<p align="justify"> The colores key is generated automatically and the player has to try to guess with combinations of their preference, with the help of the grade-pages it helps them to verify if the colors are suitable and are not in the correct place or that the colors are suitable. and they are in the right place. </p>
+<img src="images/Screenshot_252.png" alt="Flow to play">
 
 ## Piece of code related to the algorithm or flow
 
